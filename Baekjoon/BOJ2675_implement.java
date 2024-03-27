@@ -34,5 +34,6 @@ public class BOJ2675_implement {
 
         bw.close();
         br.close();
+
     }
 }
