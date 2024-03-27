@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class BOJ2675_iter {
+public class BOJ2675_implement {
     public static String solution(int R, String S) {
         String answer = "";
         for (int i = 0; i < S.length(); i++) {
