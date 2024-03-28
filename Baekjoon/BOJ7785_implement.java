@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
-import java.util.Collections;;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -35,13 +35,11 @@ public class BOJ7785_implement {
         }
 
         List<String> list = new ArrayList<>(set);
-        Collections.sort(list);
+        list.sort(Comparator.reverseOrder());
 
-        for (int i = list.size() - 1; i >= 0; i--) {
-            bw.write(list.get(i) + "\n");
+        for (String x : list) {
+            bw.write(x + "\n");
         }
-
-        bw.flush();
 
         bw.close();
         br.close();
