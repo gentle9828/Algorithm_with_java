@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class BOJ1213 {
+public class BOJ1213_implement {
     private static String solution(String name) {
         Map<Character, Integer> charCount = new TreeMap<>();
         for (char c : name.toCharArray()) {
