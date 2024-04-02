@@ -36,7 +36,6 @@ public class 특정_문자_뒤집기 {
         String result = br.readLine();
 
         bw.write(solution(result));
-        bw.flush();
 
         bw.close();
         br.close();
