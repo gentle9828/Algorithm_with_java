@@ -5,15 +5,26 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
 
 public class 단어_뒤집기 {
-    public static String[] solution(int n, String[] str) {
-        String[] answer = new String[n];
-        for(int i = 0; i < n; i++) {
-            answer[i] = "";
-            for(int k = str[i].length() - 1; k >= 0; k--) {
-                answer[i] += str[i].charAt(k);
-            }
+//    public static String[] solution(int n, String[] str) {
+//        String[] answer = new String[n];
+//        for(int i = 0; i < n; i++) {
+//            answer[i] = "";
+//            for(int k = str[i].length() - 1; k >= 0; k--) {
+//                answer[i] += str[i].charAt(k);
+//            }
+//        }
+//
+//        return answer;
+//    }
+
+    public static ArrayList<String> solution(int n, String[] str) {
+        ArrayList<String> answer = new ArrayList<>();
+        for (String x : str) {
+            String tmp = new StringBuilder(x).reverse().toString();
+            answer.add(tmp);
         }
 
         return answer;
