@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv2;
 
 public class 쿼드압축_후_개수_세기 {
     // 0과 1의 개수를 저장하는 배열

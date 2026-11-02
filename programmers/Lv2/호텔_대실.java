@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv2;
 
 public class 호텔_대실 {
     public int solution(String[][] book_time) {

@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv1;
 
 public class 지폐_접기 {
     public int solution(int[] wallet, int[] bill) {

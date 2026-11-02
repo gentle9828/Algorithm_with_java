@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv1;
 
 public class 둘만의_암호 {
     public String solution(String s, String skip, int index) {

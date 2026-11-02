@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv1;
 
 public class 택배_상자_꺼내기 {
     public int solution(int n, int w, int num) {

@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv2;
 
 public class K진수에서_소수_개수_구하기 {
     public static boolean isPrime(long number) {

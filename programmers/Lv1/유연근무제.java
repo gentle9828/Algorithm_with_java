@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv1;
 
 public class 유연근무제 {
     public int solution(int[] schedules, int[][] timelogs, int startday) {

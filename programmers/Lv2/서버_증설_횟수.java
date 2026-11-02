@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv2;
 
 public class 서버_증설_횟수 {
     public int solution(int[] players, int m, int k) {

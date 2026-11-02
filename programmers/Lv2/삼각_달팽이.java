@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv2;
 
 public class 삼각_달팽이 {
     // 아래, 오른쪽, 왼쪽 위 대각선 방향으로 이동

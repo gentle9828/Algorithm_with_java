@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv1;
 
 public class 덧칠하기 {
     public int solution(int n, int m, int[] section) {

@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv1;
 
 public class 카드_뭉치 {
     public String solution(String[] cards1, String[] cards2, String[] goal) {

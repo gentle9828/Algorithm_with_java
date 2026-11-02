@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv1;
 
 public class 동영상_재생기 {
     public String solution(String video_len, String pos, String op_start, String op_end, String[] commands) {

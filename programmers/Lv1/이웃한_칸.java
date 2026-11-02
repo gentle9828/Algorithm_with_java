@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv1;
 
 public class 이웃한_칸 {
     public int solution(String[][] board, int h, int w) {

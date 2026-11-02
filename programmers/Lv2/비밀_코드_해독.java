@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv2;
 
 public class 비밀_코드_해독 {
     private int m;

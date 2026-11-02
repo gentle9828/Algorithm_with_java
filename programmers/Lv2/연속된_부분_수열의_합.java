@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv2;
 
 public class 연속된_부분_수열의_합 {
     public int[] solution(int[] sequence, int k) {

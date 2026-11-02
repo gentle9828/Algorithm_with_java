@@ -1,4 +1,4 @@
-package programmers;
+package programmers.Lv2;
 
 public class 힌트_스테이지 {
     private int n;
